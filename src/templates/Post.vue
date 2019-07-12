@@ -14,6 +14,10 @@ query Post ($path: String!) {
   post: post (path: $path) {
     title
     content
+    date
+    meta_message
+    blog_image_path
+    blog_image_credit
   }
 }
 </page-query>
