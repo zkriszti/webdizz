@@ -35,13 +35,19 @@ export default {
 <style lang="stylus" scoped>
   h2
     color: green
+
   .image-credit
     color: #999
     font-size: 0.8rem
     text-align: right
+
   .meta-message
     font-style: italic
     color: #999
+
+  pre, p code
+    background: #eeeeee
+    padding: 8px 10px
 
 </style>
 

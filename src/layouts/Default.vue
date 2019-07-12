@@ -1,12 +1,20 @@
 <template>
   <div class="layout">
     <header class="header">
-      <strong>
-        <g-link to="/">{{ $static.metaData.siteName }}</g-link>
-      </strong>
-      <MainNav />
+      <div class="header-inner">
+        <strong>
+          <!-- <g-link to="/">{{ $static.metaData.siteName }}</g-link> -->
+          <g-link to="/" class="page-info">
+            <p class="page-info-name">Krisztina Závecz</p>
+            <p class="page-info-title">Frontend Developer</p>
+          </g-link>
+        </strong>
+        <MainNav />
+      </div>
     </header>
-    <slot/>
+    <div class="app-inner">
+      <slot/>
+    </div>
   </div>
 </template>
 
@@ -37,13 +45,14 @@ body
   line-height: 1.5
   color: #444
 
-.layout
+.app-inner
   max-width: 760px
   margin: 0 auto
-  padding-left: 20px
-  padding-right: 20px
 
 .header
+  background: #dfdfdf
+
+.header-inner
   display: flex
   justify-content: space-between
   align-items: center
@@ -52,20 +61,22 @@ body
   font-family: Comfortaa, sans-serif
   a
     text-decoration: none
-    text-transform: lowercase
+    .page-info-title
+      font-size: 0.9em
     &:visited
       color: #444
     &.nav__link
+      text-transform: lowercase
       margin-left: 20px
       padding: 6px 12px
       border-radius: 4px
       background: #eee
 
+.app-inner,
+.header-inner
+  padding: 0 20px
+
 img
   max-width: 100%
-
-pre, p code
-  background: #eeeeee
-  padding: 8px 10px
 
 </style>
