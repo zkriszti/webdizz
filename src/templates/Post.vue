@@ -1,6 +1,11 @@
 <template>
   <Layout>
+    <h2>{{ $page.post.title }}</h2>
+    <p class='meta-message'>{{ $page.post.meta_message }}</p>
+    <g-image :src=" $page.post.blog_image_path " width="480"/>
+    <p class='image-credit'>{{ $page.post.blog_image_credit }}</p>
     <div v-html="$page.post.content"/>
+    <p>{{ $page.post.date }}</p>
   </Layout>
 </template>
 
