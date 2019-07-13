@@ -10,7 +10,11 @@ module.exports = {
   port: 8200,
 
   transformers: {
-    remark: {}
+    remark: {
+      plugins: [
+        '@gridsome/remark-prismjs'
+      ]
+    }
   },
 
   css: {
