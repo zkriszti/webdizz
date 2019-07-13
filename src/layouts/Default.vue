@@ -5,8 +5,8 @@
         <strong>
           <!-- <g-link to="/">{{ $static.metaData.siteName }}</g-link> -->
           <g-link to="/" class="page-info">
-            <p class="page-info-name">Krisztina Závecz</p>
-            <p class="page-info-title">Frontend Developer</p>
+            <span class="page-info-name">Krisztina Závecz</span>
+            <span class="page-info-title">Frontend Developer</span>
           </g-link>
         </strong>
         <MainNav />
@@ -37,13 +37,13 @@ query {
 </static-query>
 
 <style lang="stylus">
-
 body
   font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif
   margin:0
   padding:0
   line-height: 1.5
   color: #444
+  box-sizing: border-box
 
 .app-inner
   max-width: 760px
@@ -51,6 +51,8 @@ body
 
 .header
   background: #dfdfdf
+  background: #102542
+  background: #446189
 
 .header-inner
   display: flex
@@ -61,8 +63,17 @@ body
   font-family: Comfortaa, sans-serif
   a
     text-decoration: none
+    .page-info-name,
+    .page-info-title
+        color: #eee
+        display: block
+    .page-info-name
+      font-size: 1.3rem
+      text-transform: uppercase
     .page-info-title
       font-size: 0.9em
+      font-size: 0.8em
+      font-style: italic
     &:visited
       color: #444
     &.nav__link
@@ -75,6 +86,11 @@ body
 .app-inner,
 .header-inner
   padding: 0 20px
+
+h1
+  text-align: center
+  text-transform: lowercase
+  font-family: Comfortaa, sans-serif
 
 img
   max-width: 100%
