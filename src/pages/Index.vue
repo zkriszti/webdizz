@@ -1,7 +1,7 @@
 <template>
   <Layout>
     <h1>About me</h1>
-    <p>I'm a Frontend Developer living in the beautiful city of Budapest, Hungary.</p>
+    <p class="entree">I'm a Frontend Developer living in the beautiful city of Budapest, Hungary.</p>
     <div>
       <div class="about-me">
         <g-image alt="Krisztina Závecz" src="../../uploads/krisztizavecz.png" width="135" />
@@ -15,8 +15,7 @@
         <p>My current technology stack includes daily work with the following technologies:</p>
         <ul>
           <li>Responsive frontend solutions - HTML5 - CSS3</li>
-          <li>native Javascript</li>
-          <li>Vue.JS</li>
+          <li>Vue.JS & native Javascript</li>
         </ul>
       </div>
       <div class="tech-legacy">
@@ -44,9 +43,17 @@ export default {
   margin-right: 1rem
 
 .about-me
-    @media screen and (min-width: 400px)
-      display: grid
-      grid-template-columns: 135px auto
+  border-radius: 6px
+  background: #eee
+  padding: 6px 12px
+  @media screen and (min-width: 400px)
+    display: grid
+    grid-template-columns: 135px auto
+  @media screen and (min-width: 568px)
+    align-items: center
+
+.entree
+  text-align: center
 
 .likes-list
   list-style-type: '\2764 \FE0F'
