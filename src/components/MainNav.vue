@@ -1,7 +1,7 @@
 <template>
   <div>
     <nav class="nav">
-      <g-link class="nav__link" v-for="(item, index) in menuItems" :to="item.target" :key="index">
+      <g-link class="nav__link" v-for="(item, index) in inactivePages" :to="item.target" :key="index">
         {{ item.name }}
       </g-link>
     </nav>
@@ -13,14 +13,16 @@ export default {
   data () {
     return {
       menuItems: [
-        {name: 'Blog', target: "/blog"}
+        {name: 'Blog', target: "/blog"},
+        //{name: 'Main', target: "/"}
       ]
     }
+  },
+
+  computed: {
+    inactivePages() {return this.menuItems.filter(i => i.target !== this.$route.path)}
   }
+
 }
 
 </script>
-
-<style lang="stylus" scoped>
-
-</style>
