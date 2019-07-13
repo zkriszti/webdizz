@@ -1,11 +1,13 @@
 <template>
   <Layout>
     <h2>{{ $page.post.title }}</h2>
-    <p class='meta-message'>{{ $page.post.meta_message }}</p>
+    <div class="date-meta-container">
+      <p class='meta-message'>{{ $page.post.meta_message }}</p>
+      <p>{{ $page.post.date }}</p>
+    </div>
     <g-image :src=" $page.post.blog_image_path " width="480"/>
     <p class='image-credit'>{{ $page.post.blog_image_credit }}</p>
     <div v-html="$page.post.content"/>
-    <p>{{ $page.post.date }}</p>
   </Layout>
 </template>
 
@@ -33,21 +35,23 @@ export default {
 </script>
 
 <style lang="stylus" scoped>
-  h2
-    color: green
+.date-meta-container
+  display: flex
+  justify-content: space-between
+  font-size: 0.8rem
 
-  .image-credit
-    color: #999
-    font-size: 0.8rem
-    text-align: right
+.image-credit
+  color: #999
+  font-size: 0.8rem
+  text-align: right
 
-  .meta-message
-    font-style: italic
-    color: #999
+.meta-message
+  font-style: italic
+  color: #999
 
-  pre, p code
-    background: #eeeeee
-    padding: 8px 10px
+pre
+  background: #eeeeee
+  padding: 8px 10px
 
 </style>
 
