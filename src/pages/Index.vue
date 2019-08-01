@@ -74,9 +74,10 @@ li
 .likes-list li:before
   content: ''
   display: block
-  width: 30px
-  height: 30px
+  min-width: 30px
+  min-height: 30px
   background-image: url("../../uploads/icons8-heart.svg")
+  background-repeat: no-repeat
   margin-right: 15px
 
 </style>
