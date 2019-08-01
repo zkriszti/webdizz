@@ -6,9 +6,9 @@
       <div class="about-me">
         <g-image alt="Krisztina Závecz" src="../../uploads/krisztizavecz.png" width="135" />
         <ul class="likes-list">
-          <li>I love creating. I find joy in revealing pieces of knowledge I haven't had before.</li>
-          <li>I love the feeling of finally resolving a bug. :)</li>
-          <li>I love CSS.</li>
+          <li><span>I love creating. I find joy in revealing pieces of knowledge I haven't had before.</span></li>
+          <li><span>I love the feeling of finally resolving a bug. :)</span></li>
+          <li><span>I love CSS.</span></li>
         </ul>
       </div>
       <div class="tech-current">
@@ -56,10 +56,27 @@ export default {
   text-align: center
 
 .likes-list
-  list-style-type: '\2764 \FE0F'
+  /* list-style-type: '\2764 \FE0F' */
+  /* list-style-type: '\1F497' */
+  /* list-style-image: url("../../uploads/icons8-heart.svg" ) */
+  list-style-type: none
 
 li
   padding-left: 20px
   margin-bottom: 8px
+
+.likes-list li
+  display: flex
+
+.likes-list span
+  align-self: center
+
+.likes-list li:before
+  content: ''
+  display: block
+  width: 30px
+  height: 30px
+  background-image: url("../../uploads/icons8-heart.svg")
+  margin-right: 15px
 
 </style>
