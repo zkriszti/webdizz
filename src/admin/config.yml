@@ -2,8 +2,8 @@ backend:
   name: github
   repo: zkriszti/webdizz
 
-media_folder: "static/uploads"
-public_folder: "/uploads"
+media_folder: "blog/media"
+public_folder: "/media"
 
 collections:
   - name: "posts"
