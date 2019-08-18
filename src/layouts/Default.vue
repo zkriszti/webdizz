@@ -9,6 +9,7 @@
             <span class="page-info-title">Frontend Developer</span>
           </g-link>
         </strong>
+        <Social />
         <MainNav />
       </div>
     </header>
@@ -20,10 +21,12 @@
 
 <script>
   import MainNav from '../components/MainNav.vue'
+  import Social from '../components/Social.vue'
 
 export default {
   components: {
-    MainNav
+    MainNav,
+    Social
   }
 }
 </script>
@@ -46,7 +49,7 @@ body
   box-sizing: border-box
 
 .app-inner
-  max-width: 760px
+  max-width: 40rem
   margin: 0 auto
 
 .header
