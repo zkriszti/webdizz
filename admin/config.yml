@@ -1,0 +1,21 @@
+backend:
+  name: github
+  repo: zkriszti/webdizz
+
+media_folder: "blog/media"
+public_folder: "/media"
+
+collections:
+  - name: "posts"
+    label: "Posts"
+    folder: "blog"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Excerpt", name: "excerpt", widget: "string", required: false}
+      - {label: "Publish Date", name: "date", widget: "date"}
+      - {label: "Body", name: "body", widget: "markdown"}
+      - {label: "Featured Image", name: "blog-image-path", widget: "image", required: false}
+
+publish_mode: editorial_workflow
