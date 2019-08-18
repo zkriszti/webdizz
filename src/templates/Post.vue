@@ -6,7 +6,7 @@
       <p>{{ $page.post.date }}</p>
     </div>
     <g-image :src=" $page.post.blog_image_path " width="480"/>
-    <p class='image-credit'>{{ $page.post.blog_image_credit }}</p>
+    <p class='img-credit'>{{ $page.post.blog_image_credit }}</p>
     <div v-html="$page.post.content"/>
   </Layout>
 </template>
@@ -34,16 +34,19 @@ export default {
 };
 </script>
 
-<style lang="stylus" scoped>
+<style lang="stylus">
 .date-meta-container
   display: flex
   justify-content: space-between
   font-size: 0.8rem
 
-.image-credit
+.img-credit
+.inline-img-credit
+a.inline-img-credit:visited
   color: #999
   font-size: 0.8rem
   text-align: right
+  text-decoration: none
 
 .meta-message
   font-style: italic
