@@ -4,6 +4,7 @@ backend:
 
 media_folder: "blog/media"
 public_folder: "/media"
+publish_mode: editorial_workflow
 
 collections:
   - name: "posts"
@@ -18,4 +19,3 @@ collections:
       - {label: "Body", name: "body", widget: "markdown"}
       - {label: "Featured Image", name: "blog-image-path", widget: "image", required: false}
 
-publish_mode: editorial_workflow
