@@ -22,5 +22,7 @@ export default {
 </script>
 
 <style lang="stylus" scoped>
-
+  a,
+  a:visited
+    color: #eee
 </style>
