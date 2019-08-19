@@ -37,6 +37,7 @@ export default {
     title: 'Blog'
   }
 }
+
 </script>
 
 <style lang="stylus" scoped>
