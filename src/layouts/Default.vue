@@ -53,16 +53,19 @@ body
   margin: 0 auto
 
 .header
-  background: #dfdfdf
-  background: #102542
   background: #446189
+  padding-top: 15px
 
 .header-inner
-  display: flex
-  justify-content: space-between
+  /* display: flex
+  justify-content: space-between  */
   align-items: center
   margin-bottom: 20px
-  height: 80px
+  /*   height: 80px */
+  display: grid
+  grid-template-rows: auto auto
+  grid-auto-flow: column
+  grid-row-gap: 10px
   font-family: Comfortaa, sans-serif
   a
     text-decoration: none
