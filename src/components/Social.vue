@@ -1,8 +1,8 @@
 <template>
-  <div>
-      <g-link v-for="(item, index) in iconItems" :to="item.target" :key="index">
+  <div class="social">
+      <a v-for="(item, index) in iconItems" :href=item.target :key="index">
         <font-awesome :icon="item.icon"/>
-      </g-link>
+      </a>
   </div>
 </template>
 
