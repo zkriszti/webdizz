@@ -37,6 +37,16 @@ export default {
 </script>
 
 <style lang="stylus">
+h3
+  color: #777
+  font-weight: normal
+  display: flex
+  align-items: center
+
+h3 svg
+  fill: #777
+  margin-right: 10px
+
 .date-meta-container
   display: flex
   justify-content: space-between
