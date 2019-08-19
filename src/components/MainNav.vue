@@ -1,11 +1,9 @@
 <template>
-  <div>
     <nav class="nav">
       <g-link class="nav__link" v-for="(item, index) in inactivePages" :to="item.target" :key="index">
         {{ item.name }}
       </g-link>
     </nav>
-  </div>
 </template>
 
 <script>
@@ -26,3 +24,8 @@ export default {
 }
 
 </script>
+
+<style lang="stylus" scoped>
+  .nav
+    justify-self: end
+</style>
