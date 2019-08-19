@@ -1,6 +1,7 @@
 <template>
   <Layout>
     <h2>{{ $page.post.title }}</h2>
+    <h3 v-if="$page.post.subtitle"><font-awesome :icon="['fas', 'angle-double-right']" /><span>{{ $page.post.subtitle }}</span></h3>
     <div class="date-meta-container">
       <p class='meta-message'>{{ $page.post.meta_message }}</p>
       <p>{{ $page.post.date }}</p>
