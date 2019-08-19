@@ -22,7 +22,9 @@ export default {
 </script>
 
 <style lang="stylus" scoped>
-  a,
-  a:visited
-    color: #eee
+  a
+    margin-right: 10px
+  a path
+  a:visited path
+    fill: #eee
 </style>
