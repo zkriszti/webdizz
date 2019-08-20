@@ -8,7 +8,7 @@
 module.exports = function (api) {
   api.loadSource(({ store }) => {
     // Use the Data Store API here: https://gridsome.org/docs/data-store-api
-    store.addMetaData('description', 'Krisztina Závecz | Frontend Developer from Budapest, Hungary')
+    //  store.addMetaData('description', 'Krisztina Závecz | Frontend Developer from Budapest, Hungary')
   })
 
   api.createPages(({ createPage }) => {
