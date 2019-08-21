@@ -6,7 +6,7 @@
         <!-- {{ edge.node.id }} -->
         <g-link :to="edge.node.path" class="post-link">
           <div class="post-item-inner-top">
-            <g-image v-if="edge.node.blog_image_path" :src="edge.node.blog_image_path" class="post-image" width="120"/>
+            <g-image v-if="edge.node.blog_image_path" :src="edge.node.blog_image_path" class="post-image" width="120" :alt=" edge.node.blog_image_alt "/>
             <div class="post-date"><span>{{ edge.node.date }}</span></div>
           </div>
           <div class="post-item-inner-title">{{ edge.node.title }}</div>
@@ -25,6 +25,7 @@ query Posts {
         title
         date
         blog_image_path
+        blog_image_alt
       }
     }
   }
