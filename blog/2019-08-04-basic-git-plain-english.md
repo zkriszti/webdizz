@@ -4,6 +4,7 @@ subtitle: "vol.1.: Snapshot-based logic explained through movement photography"
 date: 2019.08.04
 blog-image-path: '././media/journey.jpg'
 blog-image-credit: 'Photo by Annie Spratt on Unsplash'
+blog-image-alt: 'boy with a map in his hands'
 ---
 
 __How I met... git__

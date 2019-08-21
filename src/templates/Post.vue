@@ -6,7 +6,7 @@
       <p class='meta-message'>{{ $page.post.meta_message }}</p>
       <p>{{ $page.post.date }}</p>
     </div>
-    <g-image :src=" $page.post.blog_image_path " width="480"/>
+    <g-image :src=" $page.post.blog_image_path " width="480" :alt=" $page.post.blog_image_alt "/>
     <p class='img-credit'>{{ $page.post.blog_image_credit }}</p>
     <div v-html="$page.post.content"/>
   </Layout>
@@ -22,6 +22,7 @@ query Post ($path: String!) {
     meta_message
     blog_image_path
     blog_image_credit
+    blog_image_alt
   }
 }
 </page-query>

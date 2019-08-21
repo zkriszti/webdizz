@@ -3,6 +3,7 @@ title: Quick troubleshooting handles for SVGs not displaying
 date: 2019.07.06
 blog-image-path: '././media/svg-code.jpg'
 blog-image-credit: 'Photo by Florian Olivo on Unsplash'
+blog-image-alt: 'code on screen'
 ---
 
 So you have engaged in using SVG for your graphic elements, because you have heard all the fantastic features that it holds:
