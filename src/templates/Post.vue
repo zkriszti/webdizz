@@ -23,6 +23,7 @@ query Post ($path: String!) {
     blog_image_path
     blog_image_credit
     blog_image_alt
+    post_lg
   }
 }
 </page-query>

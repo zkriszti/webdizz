@@ -11,8 +11,7 @@ export default {
   data () {
     return {
       menuItems: [
-        {name: 'Blog', target: "/blog"},
-        //{name: 'Main', target: "/"}
+        {name: 'Blog', target: "/blog"}
       ]
     }
   },
@@ -28,4 +27,13 @@ export default {
 <style lang="stylus" scoped>
   .nav
     justify-self: end
+
+    .nav__link
+      background: #fff
+      color: #446189
+      font-weight: bold
+      text-transform: lowercase
+      margin-left: 20px
+      padding: 6px 12px
+      border-radius: 4px
 </style>

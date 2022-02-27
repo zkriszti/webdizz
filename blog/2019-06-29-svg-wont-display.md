@@ -4,6 +4,8 @@ date: 2019.07.06
 blog-image-path: '././media/svg-code.jpg'
 blog-image-credit: 'Photo by Florian Olivo on Unsplash'
 blog-image-alt: 'code on screen'
+post_lg: en
+cld-img-url: '/v1588504270/webdizz/svg-code.jpg'
 ---
 
 So you have engaged in using SVG for your graphic elements, because you have heard all the fantastic features that it holds:

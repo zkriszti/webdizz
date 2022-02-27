@@ -5,6 +5,8 @@ date: 2019.08.04
 blog-image-path: '././media/journey.jpg'
 blog-image-credit: 'Photo by Annie Spratt on Unsplash'
 blog-image-alt: 'boy with a map in his hands'
+post_lg: en
+cld-img-url: '/v1588504233/webdizz/journey.jpg'
 ---
 
 __How I met... git__

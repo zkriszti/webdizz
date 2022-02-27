@@ -5,6 +5,8 @@ meta-message: this is a repost from my old blog (June 2017)
 blog-image-path: '././media/phone-booth.jpg'
 blog-image-credit: 'Photo by Pedro Ramos on Unsplash'
 blog-image-alt: 'red phone booth'
+post_lg: en
+cld-img-url: '/v1588504261/webdizz/phone-booth.jpg'
 ---
 To phone or not to phone?
 

@@ -14,8 +14,8 @@
       <div class="tech-current">
         <p>My current technology stack includes daily work with the following technologies:</p>
         <ul>
-          <li>Responsive frontend solutions - HTML5 - CSS3</li>
-          <li>Vue.JS & native Javascript</li>
+          <li>Responsive frontend solutions: HTML5 - CSS3 - native JavaScript</li>
+          <li>Vue.JS</li>
         </ul>
       </div>
       <div class="tech-legacy">
@@ -46,6 +46,7 @@ export default {
   border-radius: 6px
   background: #eee
   padding: 6px 12px
+  box-shadow: 2px 2px 5px 0px #44618999
   @media screen and (min-width: 400px)
     display: grid
     grid-template-columns: 135px auto

@@ -82,12 +82,6 @@ body
       font-style: italic
     &:visited
       color: #444
-    &.nav__link
-      text-transform: lowercase
-      margin-left: 20px
-      padding: 6px 12px
-      border-radius: 4px
-      background: #eee
 
 .app-inner,
 .header-inner
