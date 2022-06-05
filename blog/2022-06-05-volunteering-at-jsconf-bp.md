@@ -45,7 +45,7 @@ Initially, my reason (the “why”) to volunteer at JSConf Budapest was to make
 * learning from each other, either by watching some talks in my free time or just by connecting to speakers, participants or to my peer volunteers. Sharing our experience regardless of gender, skin colour, ethnicity, etc.
 * got momentum to discover tech concepts I’ve just superficially touched
 * getting to know some twitter pals IRL
-* great selection of talks: a meaningful number of them were about mental health and / or communication (dev-to-user, dev-to-dev, dev-to-business). Huge kudos to the CFP reviewer team to include these types of talks: this is rare and brave in the tech scene as far as I’ve seen. These talks are also really relatable: “wow, this has also happened at my job! oh, I’m also guilty of [not-so-good-practice-in-communication]!”
+* great selection of talks: a meaningful number of them were about mental health and / or communication (dev-to-user, dev-to-dev, dev-to-business). Huge kudos to the CFP reviewer team to include these types of talks: this is rare and brave in the tech scene as far as I’ve seen. These talks are also really relatable: “wow, this has also happened at my job!" or "oh, I’m also guilty of [not-so-good-practice-in-communication]!”
 * quality of the talks: I loved how many of them showed already familiar concepts connected in fresh and unique ways, shedding light on new chain links between them. Give the LEGO-set to me, I’ll build a fast spaceship. Give the LEGO-set to them, they’ll build a beautiful castle!
 * get a little insight into being a speaker: yes, even seasoned speakers are nervous before their talks, yes, they appreciate our work, and yes, they are lovely persons to connect to!
 
