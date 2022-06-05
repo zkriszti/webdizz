@@ -50,7 +50,7 @@ body
 
 .app-inner
   max-width: 40rem
-  margin: 0 auto
+  margin: 0 auto 40px auto
 
 .header
   background: #446189
