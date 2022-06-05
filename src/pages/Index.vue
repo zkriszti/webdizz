@@ -17,11 +17,17 @@
           <li>Responsive frontend solutions: HTML5 - CSS3 - native JavaScript</li>
           <li>Vue.JS</li>
         </ul>
+        <p>I have data visualisation experience using...</p>
+        <ul>
+          <li>canvas</li>
+          <li>svg</li>
+          <li>d3.js</li>
+        </ul>
       </div>
       <div class="tech-legacy">
         <p>For the records, I also have prior experience with:</p>
         <ul>
-          <li>frontend work for PHP-based backends</li>
+          <li>frontend work for PHP-based (WordPress) backends</li>
           <li>frontend work with MS SharePoint 2013 / 2016 (JSOM, unique branded layouts for large accounts, etc.)</li>
         </ul>
       </div>
