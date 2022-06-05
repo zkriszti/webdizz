@@ -12,7 +12,8 @@ module.exports = {
   transformers: {
     remark: {
       plugins: [
-        '@gridsome/remark-prismjs'
+        '@gridsome/remark-prismjs',
+        'remark-attr'
       ]
     }
   },
