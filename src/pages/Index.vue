@@ -12,9 +12,10 @@
         </ul>
       </div>
       <div class="tech-current">
-        <p>My current technology stack includes daily work with the following technologies:</p>
+        <p>My current technology stack includes the following technologies:</p>
         <ul>
           <li>Responsive frontend solutions: HTML5 - CSS3 - native JavaScript</li>
+          <li>React and its ecosystem</li>
           <li>Vue.JS</li>
         </ul>
         <p>I have data visualisation experience using...</p>
@@ -27,7 +28,7 @@
       <div class="tech-legacy">
         <p>For the records, I also have prior experience with:</p>
         <ul>
-          <li>frontend work for PHP-based (WordPress) backends</li>
+          <li>frontend work for PHP-based (WordPress / Joomla) projects</li>
           <li>frontend work with MS SharePoint 2013 / 2016 (JSOM, unique branded layouts for large accounts, etc.)</li>
         </ul>
       </div>
