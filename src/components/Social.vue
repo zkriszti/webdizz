@@ -39,6 +39,8 @@ export default {
 <style lang="stylus" scoped>
   a
     margin-right: 10px
+  a svg
+    max-width: 18px;
   a path
   a:visited path
     fill: #eee
