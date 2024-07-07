@@ -21,7 +21,6 @@ query Post ($path: String!) {
     subtitle
     content
     date
-    meta_message
     blog_image_path
     blog_image_credit
     blog_image_alt
