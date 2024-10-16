@@ -2,14 +2,22 @@
   <Layout>
     <article>
       <h2>{{ $page.post.title }}</h2>
-      <h3 v-if="$page.post.subtitle"><font-awesome :icon="['fas', 'angle-double-right']" /><span>{{ $page.post.subtitle }}</span></h3>
+      <h3 v-if="$page.post.subtitle">
+        <font-awesome :icon="['fas', 'angle-double-right']" /><span>{{
+          $page.post.subtitle
+        }}</span>
+      </h3>
       <div class="date-meta-container">
-        <p class='meta-message'>{{ $page.post.meta_message }}</p>
+        <p class="meta-message">{{ $page.post.meta_message }}</p>
         <p>{{ $page.post.date }}</p>
       </div>
-      <g-image :src=" $page.post.blog_image_path " width="480" :alt=" $page.post.blog_image_alt "/>
-      <p class='img-credit'>{{ $page.post.blog_image_credit }}</p>
-      <div v-html="$page.post.content"/>
+      <g-image
+        :src="$page.post.blog_image_path"
+        width="480"
+        :alt="$page.post.blog_image_alt"
+      />
+      <p class="img-credit">{{ $page.post.blog_image_credit }}</p>
+      <div v-html="$page.post.content" />
     </article>
   </Layout>
 </template>
@@ -33,9 +41,9 @@ query Post ($path: String!) {
 export default {
   metaInfo() {
     return {
-      title: this.$page.post.title
+      title: this.$page.post.title,
     };
-  }
+  },
 };
 </script>
 
@@ -49,6 +57,7 @@ h3
 h3 svg
   fill: #777
   margin-right: 10px
+  width: 18px
 
 .date-meta-container
   display: flex
@@ -77,6 +86,4 @@ pre
 
 li:not(:last-child)
   margin-bottom: 12px
-
 </style>
-
