@@ -86,6 +86,9 @@ body
       color: #444
     &.rss-icon
       color: #FFF
+      svg
+        width: 18px
+        height: 18px
   .header-top
     display: flex
     justify-content: space-between
