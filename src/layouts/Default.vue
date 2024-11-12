@@ -2,33 +2,38 @@
   <div class="layout">
     <header class="header">
       <div class="header-inner">
-        <strong>
-          <!-- <g-link to="/">{{ $static.metaData.siteName }}</g-link> -->
-          <g-link to="/" class="page-info">
-            <span class="page-info-name">Krisztina Závecz</span>
-            <span class="page-info-title">Frontend Developer</span>
-          </g-link>
-        </strong>
+        <div class="header-top">
+          <strong>
+            <!-- <g-link to="/">{{ $static.metaData.siteName }}</g-link> -->
+            <g-link to="/" class="page-info">
+              <span class="page-info-name">Krisztina Závecz</span>
+              <span class="page-info-title">Frontend Developer</span>
+            </g-link>
+          </strong>
+          <a href="feed://krisztinazavecz.com/rss.xml" class="rss-icon">
+            <font-awesome :icon="['fas', 'rss']" />
+          </a>
+        </div>
         <Social />
         <MainNav />
       </div>
     </header>
     <div class="app-inner">
-      <slot/>
+      <slot />
     </div>
   </div>
 </template>
 
 <script>
-  import MainNav from '../components/MainNav.vue'
-  import Social from '../components/Social.vue'
+import MainNav from "../components/MainNav.vue";
+import Social from "../components/Social.vue";
 
 export default {
   components: {
     MainNav,
-    Social
-  }
-}
+    Social,
+  },
+};
 </script>
 
 <static-query>
@@ -79,6 +84,11 @@ body
       font-style: italic
     &:visited
       color: #444
+    &.rss-icon
+      color: #FFF
+  .header-top
+    display: flex
+    justify-content: space-between
 
 .app-inner,
 .header-inner
@@ -91,5 +101,4 @@ h1
 
 img
   max-width: 100%
-
 </style>
