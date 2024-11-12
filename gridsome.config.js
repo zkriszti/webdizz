@@ -5,6 +5,7 @@
 // To restart press CTRL + C in terminal and run `gridsome develop`
 
 module.exports = {
+  siteUrl: "https://krisztinazavecz.com",
   siteName: "HTML, CSS, JavaScript and related technologies",
 
   port: 8200,
